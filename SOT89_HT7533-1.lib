@@ -1,0 +1,24 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# HT7533-1
+#
+DEF HT7533-1 U 0 40 Y Y 1 L N
+F0 "U" -300 325 50 H V L BNN
+F1 "HT7533-1" -301 225 50 H V L BNN
+F2 "SOT89" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+DRAW
+T 0 -80 -70 60 0 0 0 GND Normal 0 L B
+P 2 0 0 16 300 200 -300 200 N
+S -300 -100 300 200 0 0 16 f
+X VI 2 -400 100 100 R 40 40 0 0 I 
+X VI 2@1 -400 100 100 R 40 40 0 0 I 
+X ~ 1 0 -200 100 U 40 40 0 0 P 
+X VO 3 400 100 100 L 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library

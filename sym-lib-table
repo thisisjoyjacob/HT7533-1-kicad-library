@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "HT7533-1")(type "KiCad")(uri "${KIPRJMOD}/HT7533-1.kicad_sym")(options "")(descr ""))
+  (lib (name "custom-ht7533-1")(type "KiCad")(uri "${KIPRJMOD}/custom-ht7533-1.kicad_sym")(options "")(descr ""))
+)
